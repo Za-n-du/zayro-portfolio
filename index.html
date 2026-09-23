@@ -3,506 +3,100 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="description" content="ZAYRO — Creative Graphic Design Portfolio by Sandaru Lakshitha.">
   <title>ZAYRO — Creative Design Portfolio</title>
-
-  <meta
-    name="description"
-    content="ZAYRO — Creative Graphic Design Portfolio by Sandaru Lakshitha."
-  >
-
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
-
-  <!-- CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-  <!-- Noise Overlay -->
-  <div class="noise"></div>
-
-  <!-- =========================
-       HEADER
-  ========================== -->
+  <div class="noise" aria-hidden="true"></div>
 
   <header class="site-header">
-
-    <a href="#" class="brand">
-      ZAYRO<span>®</span>
-    </a>
-
-    <nav>
+    <a href="#top" class="brand" aria-label="ZAYRO home">ZAYRO<span>®</span></a>
+    <nav id="site-nav" aria-label="Main navigation">
       <a href="#work">Work</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
     </nav>
-
-    <button class="menu-btn" aria-label="Open menu">
-      <span></span>
-      <span></span>
-      <span></span>
+    <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
     </button>
-
   </header>
 
-
-  <!-- =========================
-       HERO
-  ========================== -->
-
-  <main>
-
-    <section class="hero">
-
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="hero-content">
-
-        <p class="eyebrow">
-          Creative Design Portfolio · 2026
-        </p>
-
-        <h1>
-          ART<br>
-          <em>BEYOND</em><br>
-          ORDINARY.
-        </h1>
-
-        <p class="hero-text">
-          A visual design portfolio focused on brand identity,
-          advertising, product design and creative campaigns.
-          Turning ideas into visual experiences with purpose.
-        </p>
-
-        <a href="#work" class="cta">
-          Explore Selected Work
-          <span>↘</span>
-        </a>
-
+        <p class="eyebrow">Creative Design Portfolio · 2026</p>
+        <h1 id="hero-title">ART<br><em>BEYOND</em><br>ORDINARY.</h1>
+        <p class="hero-text">A visual design portfolio focused on brand identity, advertising, product design and creative campaigns. Turning ideas into visual experiences with purpose.</p>
+        <a href="#work" class="cta">Explore Selected Work <span>↘</span></a>
       </div>
-
-
-      <div class="hero-mark">
-
-        <div class="circle">
-          Z
-        </div>
-
-        <p>
-          DESIGN / BRAND / VISUAL
-        </p>
-
-        <small>
-          TURN IDEAS INTO REALITY
-        </small>
-
+      <div class="hero-mark" aria-hidden="true">
+        <div class="circle">Z</div>
+        <p>DESIGN / BRAND / VISUAL</p>
+        <small>TURN IDEAS INTO REALITY</small>
       </div>
-
     </section>
-
-
-    <!-- =========================
-         ABOUT
-    ========================== -->
 
     <section class="section" id="about">
-
       <div class="intro">
-
-        <div class="section-number">
-          01 / ABOUT
-        </div>
-
+        <div class="section-number">01 / ABOUT</div>
         <div>
-
-          <h2>
-            Designing ideas<br>
-            <span>that make an impact.</span>
-          </h2>
-
-          <p class="body-copy">
-            I create clean, modern and meaningful visual designs
-            across branding, advertising, product visuals and
-            digital campaigns. My approach combines strong
-            visual direction with clear communication to create
-            work that feels distinctive and purposeful.
-          </p>
-
+          <h2>Designing ideas<br><span>that make an impact.</span></h2>
+          <p class="body-copy">I create clean, modern and meaningful visual designs across branding, advertising, product visuals and digital campaigns. My approach combines strong visual direction with clear communication to create work that feels distinctive and purposeful.</p>
         </div>
-
       </div>
-
     </section>
-
-
-    <!-- =========================
-         SELECTED WORK
-    ========================== -->
 
     <section class="section" id="work">
-
-      <div class="section-head">
-
-        <div>
-
-          <p class="eyebrow">
-            Selected Work
-          </p>
-
-          <h2>
-            Creative<br>
-            <span>Direction.</span>
-          </h2>
-
-        </div>
-
-        <div class="section-note">
-          2026 / PORTFOLIO
-        </div>
-
-      </div>
-
-
-      <!-- =========================
-           PROJECT 01
-      ========================== -->
+      <div class="section-head"><div><p class="eyebrow">Selected Work</p><h2>Creative<br><span>Direction.</span></h2></div><div class="section-note">2026 / PORTFOLIO</div></div>
 
       <article class="project">
-
-        <div class="project-meta">
-
-          <span>
-            01
-          </span>
-
-          <div>
-
-            <p class="eyebrow">
-              Brand Identity
-            </p>
-
-            <h3>
-              ZAYRO — Brand Identity
-            </h3>
-
-            <p>
-              A complete visual identity direction for a
-              contemporary fashion brand, including logo,
-              typography, visual language and brand applications.
-            </p>
-
-          </div>
-
-        </div>
-
-
-        <figure class="image-frame tall">
-
-          <img
-            src="assets/zayro-brand-identity.png"
-            alt="ZAYRO Brand Identity"
-            loading="lazy"
-          >
-
-          <figcaption>
-            ZAYRO / BRAND IDENTITY
-          </figcaption>
-
-        </figure>
-
+        <div class="project-meta"><span>01</span><div><p class="eyebrow">Brand Identity</p><h3>ZAYRO — Brand Identity</h3><p>A complete visual identity direction for a contemporary fashion brand, including logo, typography, visual language and brand applications.</p></div></div>
+        <figure class="image-frame tall"><img src="assets/zayro-brand-identity.png" alt="ZAYRO Brand Identity" loading="lazy"><figcaption>ZAYRO / BRAND IDENTITY</figcaption></figure>
       </article>
 
-
-      <!-- =========================
-           PROJECT 02
-      ========================== -->
-
       <article class="project">
-
-        <div class="project-meta">
-
-          <span>
-            02
-          </span>
-
-          <div>
-
-            <p class="eyebrow">
-              Product & Advertising
-            </p>
-
-            <h3>
-              Product Visuals
-            </h3>
-
-            <p>
-              Premium product-focused advertising concepts
-              designed for digital campaigns and commercial
-              presentation.
-            </p>
-
-          </div>
-
-        </div>
-
-
+        <div class="project-meta"><span>02</span><div><p class="eyebrow">Product &amp; Advertising</p><h3>Product Visuals</h3><p>Premium product-focused advertising concepts designed for digital campaigns and commercial presentation.</p></div></div>
         <div class="grid-2">
-
-          <figure class="image-frame">
-
-            <img
-              src="assets/zayro-product-poster.png"
-              alt="ZAYRO Product Poster"
-              loading="lazy"
-            >
-
-            <figcaption>
-              ZAYRO / PRODUCT DESIGN
-            </figcaption>
-
-          </figure>
-
-
-          <figure class="image-frame">
-
-            <img
-              src="assets/airpods-campaign.png"
-              alt="AirPods Advertising Campaign"
-              loading="lazy"
-            >
-
-            <figcaption>
-              PRODUCT / ADVERTISING
-            </figcaption>
-
-          </figure>
-
+          <figure class="image-frame"><img src="assets/zayro-product-poster.png" alt="ZAYRO Product Poster" loading="lazy"><figcaption>ZAYRO / PRODUCT DESIGN</figcaption></figure>
+          <figure class="image-frame"><img src="assets/airpods-campaign.png" alt="AirPods Advertising Campaign" loading="lazy"><figcaption>PRODUCT / ADVERTISING</figcaption></figure>
         </div>
-
       </article>
 
-
-      <!-- =========================
-           PROJECT 03
-      ========================== -->
-
       <article class="project">
-
-        <div class="project-meta">
-
-          <span>
-            03
-          </span>
-
-          <div>
-
-            <p class="eyebrow">
-              Social / Campaign
-            </p>
-
-            <h3>
-              Campaign Design
-            </h3>
-
-            <p>
-              Social media campaign concepts created to build
-              brand awareness, introduce products and communicate
-              strong visual stories.
-            </p>
-
-          </div>
-
-        </div>
-
-
+        <div class="project-meta"><span>03</span><div><p class="eyebrow">Social / Campaign</p><h3>Campaign Design</h3><p>Social media campaign concepts created to build brand awareness, introduce products and communicate strong visual stories.</p></div></div>
         <div class="campaign-grid">
-
-          <figure class="image-frame large">
-
-            <img
-              src="assets/zayro-lust-campaign.png"
-              alt="ZAYRO LUST Campaign"
-              loading="lazy"
-            >
-
-            <figcaption>
-              CAMPAIGN 01 / LUST
-            </figcaption>
-
-          </figure>
-
-
-          <figure class="image-frame">
-
-            <img
-              src="assets/zayro-sakura-campaign.png"
-              alt="ZAYRO Sakura Campaign"
-              loading="lazy"
-            >
-
-            <figcaption>
-              CAMPAIGN 02 / SAKURA
-            </figcaption>
-
-          </figure>
-
+          <figure class="image-frame large"><img src="assets/zayro-lust-campaign.png" alt="ZAYRO LUST Campaign" loading="lazy"><figcaption>CAMPAIGN 01 / LUST</figcaption></figure>
+          <figure class="image-frame"><img src="assets/zayro-sakura-campaign.png" alt="ZAYRO Sakura Campaign" loading="lazy"><figcaption>CAMPAIGN 02 / SAKURA</figcaption></figure>
         </div>
-
       </article>
-
-
-      <!-- =========================
-           MORE WORK
-      ========================== -->
 
       <article class="project">
-
-        <div class="section-head compact">
-
-          <div>
-
-            <p class="eyebrow">
-              More Selected Work
-            </p>
-
-            <h2>
-              Visual<br>
-              <span>Exploration.</span>
-            </h2>
-
-          </div>
-
-        </div>
-
-
+        <div class="section-head compact"><div><p class="eyebrow">More Selected Work</p><h2>Visual<br><span>Exploration.</span></h2></div></div>
         <div class="masonry">
-
-          <figure class="image-frame">
-
-            <img
-              src="assets/iphone18-campaign.png"
-              alt="iPhone Advertising Concept"
-              loading="lazy"
-            >
-
-            <figcaption>
-              PRODUCT / DIGITAL ADVERTISING
-            </figcaption>
-
-          </figure>
-
-
-          <figure class="image-frame">
-
-            <img
-              src="assets/zayro-fashion-editorial.png"
-              alt="ZAYRO Fashion Editorial"
-              loading="lazy"
-            >
-
-            <figcaption>
-              FASHION / EDITORIAL
-            </figcaption>
-
-          </figure>
-
-
-          <figure class="image-frame">
-
-            <img
-              src="assets/zayro-graphic-poster.png"
-              alt="ZAYRO Graphic Poster"
-              loading="lazy"
-            >
-
-            <figcaption>
-              GRAPHIC / POSTER DESIGN
-            </figcaption>
-
-          </figure>
-
+          <figure class="image-frame"><img src="assets/iphone18-campaign.png" alt="iPhone Advertising Concept" loading="lazy"><figcaption>PRODUCT / DIGITAL ADVERTISING</figcaption></figure>
+          <figure class="image-frame"><img src="assets/zayro-fashion-editorial.png" alt="ZAYRO Fashion Editorial" loading="lazy"><figcaption>FASHION / EDITORIAL</figcaption></figure>
+          <figure class="image-frame"><img src="assets/zayro-graphic-poster.png" alt="ZAYRO Graphic Poster" loading="lazy"><figcaption>GRAPHIC / POSTER DESIGN</figcaption></figure>
         </div>
-
       </article>
-
     </section>
-
-
-    <!-- =========================
-         CONTACT
-    ========================== -->
 
     <section class="section contact" id="contact">
-
-      <p class="eyebrow">
-        Let's Work Together
-      </p>
-
-      <h2>
-        Have an idea?<br>
-        <span>Let's create it.</span>
-      </h2>
-
-      <a
-        href="mailto:sandarulakshitha87@gmail.com"
-        class="email"
-      >
-        sandarulakshitha87@gmail.com
-        <span>↗</span>
-      </a>
-
+      <p class="eyebrow">Let's Work Together</p>
+      <h2>Have an idea?<br><span>Let's create it.</span></h2>
+      <a href="mailto:sandarulakshitha87@gmail.com" class="email">sandarulakshitha87@gmail.com <span>↗</span></a>
     </section>
-
   </main>
 
+  <footer><div>ZAYRO® / CREATIVE DESIGN</div><div>© 2026 / ALL RIGHTS RESERVED</div></footer>
 
-  <!-- =========================
-       FOOTER
-  ========================== -->
-
-  <footer>
-
-    <div>
-      ZAYRO® / CREATIVE DESIGN
-    </div>
-
-    <div>
-      © 2026 / ALL RIGHTS RESERVED
-    </div>
-
-  </footer>
-
-
-  <!-- =========================
-       LIGHTBOX
-  ========================== -->
-
-  <div class="lightbox" id="lightbox">
-
-    <button
-      class="close"
-      aria-label="Close image"
-    >
-      ×
-    </button>
-
-    <img
-      id="lightbox-image"
-      src=""
-      alt=""
-    >
-
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Expanded portfolio image" aria-hidden="true">
+    <button class="close" type="button" aria-label="Close image">×</button>
+    <img id="lightbox-image" src="" alt="">
   </div>
-
-
-  <!-- JavaScript -->
   <script src="script.js"></script>
-
 </body>
 </html>
